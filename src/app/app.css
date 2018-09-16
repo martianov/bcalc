@@ -1,0 +1,65 @@
+.container {
+  width: 180px;
+}
+
+.operation_buttons {
+  margin-top: 5px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.operation_button {
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  border-top: solid 2px #eaeaea;
+  border-left: solid 2px #eaeaea;
+  border-bottom: solid 2px #777;
+  border-right: solid 2px #777;
+  background-color: white;
+  padding: 5px 5px;
+  cursor: pointer;
+}
+
+.operation_button.down {
+  border-top: solid 2px #777;
+  border-left: solid 2px #777;
+  border-bottom: solid 2px #eaeaea;
+  border-right: solid 2px #eaeaea;
+  background-color: #eaeaea;
+}
+
+.number_field {
+  margin-top: 5px;
+  width: calc(100% - 6px);
+  height: 18px;
+  border-radius: 10px;
+  padding: 2px;
+}
+
+.calculate_button {
+  margin-top: 5px;
+  height: 27px;
+  width: 100%;
+  border-radius: 10px;
+  border-top: solid 2px #eaeaea;
+  border-left: solid 2px #eaeaea;
+  border-bottom: solid 2px #777;
+  border-right: solid 2px #777;
+  background-color: white;
+}
+
+button:active {
+  outline: none;
+  border: none;
+}
+  
+button:focus {
+  outline: 0;
+}
+
+.result_container {
+  margin-top: 5px;
+  width: calc(100% - 6px);
+}
